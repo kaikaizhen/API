@@ -1,0 +1,52 @@
+﻿/* 设置导航栏右侧链接的样式 */
+.navbar-right .nav-link {
+    text-decoration: none; /* 移除文本底線 */
+    color: white; /* 更改文本顏色（可以自行調整顏色） */
+}
+
+    /* 设置导航栏右侧链接悬停时的样式 */
+    .navbar-right .nav-link:hover {
+        color: #D0D7E1; /* 更改滑鼠懸停時的文本顏色 */
+    }
+
+/* 设置导航栏的样式 */
+.navbar {
+    font-size: 30px; /* 设置导航栏字体大小 */
+}
+
+/* 再次设置导航栏右侧链接的样式，这里覆盖了前面的设置 */
+.navbar-right .nav-link {
+    color: white; /* 设置文本颜色为白色 */
+    margin-left: 10px;
+}
+
+/* 设置导航栏左侧样式 */
+.navbar-left {
+    top:10px;
+    /* 这里留空，表示未设置任何样式 */
+}
+
+/* 设置导航栏右侧样式 */
+.navbar-right {
+    flex-direction: row-reverse; /* 设置子元素排列方向为水平方向的反向 */
+    margin-top: 5px; /* 设置上边距为5px */
+    text-align: center; /* 设置文本居中对齐 */
+    font-family: "Sofia", sans-serif; /* 设置字体为 "Sofia"，如果无法加载，则使用 sans-serif */
+}
+
+/* 设置导航栏容器的样式 */
+.nav-container {
+    display: flex; /* 设置元素为弹性盒子 */
+    background-color: cornflowerblue; /* 设置背景颜色为棕色 */
+    align-items: flex-start; /* 设置元素的子元素垂直对齐方式为顶部对齐 */
+  margin:10px;
+    height: 50px; /* 设置元素高度为50px */
+    backdrop-filter: blur(10px); /* 设置背景模糊效果 */
+}
+
+/* 定义字体 */
+font-face {
+    font-family: Exo; /* 设置字体族为 Exo */
+}
+
+/* 设置主要内容容器的样式 */
