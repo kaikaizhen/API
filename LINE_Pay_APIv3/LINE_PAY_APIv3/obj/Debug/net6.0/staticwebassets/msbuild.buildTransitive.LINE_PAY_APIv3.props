@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LINE_PAY_APIv3.props" />
+</Project>
