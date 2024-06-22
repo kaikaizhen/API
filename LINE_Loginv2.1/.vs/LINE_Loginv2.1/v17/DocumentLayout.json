@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11F2919E-EF9B-4CB8-9C1D-44200F6623FC}|LINE_Loginv2.1\\LINE_Loginv2.1.csproj|C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\line_loginv2.1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{11F2919E-EF9B-4CB8-9C1D-44200F6623FC}|LINE_Loginv2.1\\LINE_Loginv2.1.csproj|solutionrelative:line_loginv2.1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F2919E-EF9B-4CB8-9C1D-44200F6623FC}|LINE_Loginv2.1\\LINE_Loginv2.1.csproj|c:\\users\\user\\desktop\\asp.net\\line_loginv2.1\\line_loginv2.1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F2919E-EF9B-4CB8-9C1D-44200F6623FC}|LINE_Loginv2.1\\LINE_Loginv2.1.csproj|solutionrelative:line_loginv2.1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{a2c8b774-0984-495f-8428-e6140b2d66e0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\LINE_Loginv2.1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LINE_Loginv2.1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\LINE_Loginv2.1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LINE_Loginv2.1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T13:45:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\LINE_Loginv2.1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LINE_Loginv2.1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NET\\LINE_Loginv2.1\\LINE_Loginv2.1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LINE_Loginv2.1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T13:26:18.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
