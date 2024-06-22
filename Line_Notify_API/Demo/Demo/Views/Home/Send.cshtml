@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Send Message to Line Notify";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("SendMessage", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <input type="text" name="message" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">@TempData["Message"]</div>
+}
