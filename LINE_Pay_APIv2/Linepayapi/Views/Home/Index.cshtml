@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Line Payment";
+}
+
+<h2>Line Payment</h2>
+
+<form action="@Url.Action("MakePayment", "Home")" method="post">
+    <input type="submit" value="付款" />
+</form>
+<form action="@Url.Action("Confirm", "Home")" method="post">
+    <input type="submit" value="驗證" />
+</form>
+
+
+@if (ViewBag.Response != null)
+{
+    <div>
+        <h3>Response from Line Payment API:</h3>
+        <pre>@Html.Raw(ViewBag.Response)</pre>
+    </div>
+}
+
+<div>交易結果:@ViewBag.result</div>
